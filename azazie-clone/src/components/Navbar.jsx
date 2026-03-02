@@ -334,6 +334,26 @@ const Navbar = () => {
                   </div>
                 </div>
                 
+                {/* All Categories */}
+                <div>
+                  <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Shop</h3>
+                  <div className="space-y-1">
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>NEW</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>HOME TRY ON</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>BRIDESMAIDS</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>BRIDES</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>MOMS</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>FLOWER GIRL</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>FORMAL & EVENING</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>PROM</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>SUITS & TIES</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>PAJAMAS & ROBES</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>SHOES & ACC</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-pink-600 font-bold rounded" onClick={() => setIsMobileMenuOpen(false)}>(FREE!) SWATCHES</Link>
+                    <Link to="/products" className="block px-3 py-2 text-sm text-red-600 font-medium rounded" onClick={() => setIsMobileMenuOpen(false)}>CLEARANCE</Link>
+                  </div>
+                </div>
+                
                 {/* Account Section - Mobile */}
                 <div className="border-t border-gray-200 mt-4 pt-4">
                   <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Account</h3>
