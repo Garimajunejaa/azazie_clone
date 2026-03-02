@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Elegant Bridesmaid Dress",
     "price": 129.99,
-    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1581044777550-4cfa60707c03?w=400",
     "category": "bridesmaid",
     "color": "Navy",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Classic Wedding Gown",
     "price": 299.99,
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800",
+    "image": "https://picsum.photos/seed/azazie/photo-1515372039744-b8f02a3ae446?w=800",
     "category": "wedding",
     "color": "White",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Mother of Bride Dress",
     "price": 189.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Champagne",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Flower Girl Dress",
     "price": 79.99,
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800",
+    "image": "https://picsum.photos/seed/azazie/photo-1515372039744-b8f02a3ae446?w=800",
     "category": "flower-girl",
     "color": "Pink",
     "sizes": ["2T", "3T", "4T", "5", "6", "7"]
@@ -39,7 +39,7 @@
     "id": 5,
     "name": "Formal Evening Dress",
     "price": 159.99,
-    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1581044777550-4cfa60707c03?w=400",
     "category": "formal",
     "color": "Black",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -48,7 +48,7 @@
     "id": 6,
     "name": "Cocktail Party Dress",
     "price": 99.99,
-    "image": "https://images.unsplash.com/photo-1496747611176-8432228e33e6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1496747611176-8432228e33e6?w=400",
     "category": "cocktail",
     "color": "Red",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Indian Bridal Lehenga",
     "price": 189.99,
-    "image": "https://images.unsplash.com/photo-1612277795448-24746a3bdecc?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1612277795448-24746a3bdecc?w=400",
     "category": "bridesmaid",
     "color": "Red & Gold",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Princess Wedding Dress",
     "price": 349.99,
-    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1581044777550-4cfa60707c03?w=400",
     "category": "wedding",
     "color": "Ivory",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -75,7 +75,7 @@
     "id": 9,
     "name": "Elegant Mother Dress",
     "price": 199.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Rose Gold",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Little Flower Girl Dress",
     "price": 89.99,
-    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1588850561407-ed78c282e89b?w=400",
     "category": "flower-girl",
     "color": "Lavender",
     "sizes": ["2T", "3T", "4T", "5", "6", "7"]
@@ -93,7 +93,7 @@
     "id": 11,
     "name": "Mermaid Evening Gown",
     "price": 249.99,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539109136881-3be0616acf4b?w=400",
     "category": "formal",
     "color": "Burgundy",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -102,7 +102,7 @@
     "id": 12,
     "name": "Midi Cocktail Dress",
     "price": 119.99,
-    "image": "https://images.unsplash.com/photo-1496747611176-8432228e33e6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1496747611176-8432228e33e6?w=400",
     "category": "cocktail",
     "color": "Emerald",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -111,7 +111,7 @@
     "id": 13,
     "name": "Traditional Indian Lehenga",
     "price": 229.99,
-    "image": "https://images.unsplash.com/photo-1612277795448-24746a3bdecc?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1612277795448-24746a3bdecc?w=400",
     "category": "bridesmaid",
     "color": "Maroon & Gold",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -120,7 +120,7 @@
     "id": 14,
     "name": "Ball Gown Wedding Dress",
     "price": 399.99,
-    "image": "https://images.unsplash.com/photo-1539002081761-f472e6d367af?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539002081761-f472e6d367af?w=400",
     "category": "wedding",
     "color": "White",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -129,7 +129,7 @@
     "id": 15,
     "name": "Chiffon Mother Dress",
     "price": 179.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Silver",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -138,7 +138,7 @@
     "id": 16,
     "name": "Tulle Flower Girl Dress",
     "price": 99.99,
-    "image": "https://images.unsplash.com/photo-1578618276943-c0078d7778b6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1578618276943-c0078d7778b6?w=400",
     "category": "flower-girl",
     "color": "Mint",
     "sizes": ["2T", "3T", "4T", "5", "6", "7"]
@@ -147,7 +147,7 @@
     "id": 17,
     "name": "Strapless Evening Dress",
     "price": 189.99,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539109136881-3be0616acf4b?w=400",
     "category": "formal",
     "color": "Royal Blue",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -156,7 +156,7 @@
     "id": 18,
     "name": "Little Black Cocktail Dress",
     "price": 109.99,
-    "image": "https://images.unsplash.com/photo-1496747611176-8432228e33e6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1496747611176-8432228e33e6?w=400",
     "category": "cocktail",
     "color": "Black",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -165,7 +165,7 @@
     "id": 19,
     "name": "Royal Indian Bridal Lehenga",
     "price": 299.99,
-    "image": "https://images.unsplash.com/photo-1612277795448-24746a3bdecc?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1612277795448-24746a3bdecc?w=400",
     "category": "bridesmaid",
     "color": "Cream & Silver",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -174,7 +174,7 @@
     "id": 20,
     "name": "A-Line Wedding Dress",
     "price": 329.99,
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1515372039744-b8f02a3ae446?w=400",
     "category": "wedding",
     "color": "Cream",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -183,7 +183,7 @@
     "id": 21,
     "name": "Jumpsuit Mother Dress",
     "price": 169.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Navy",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -192,7 +192,7 @@
     "id": 22,
     "name": "Satin Flower Girl Dress",
     "price": 79.99,
-    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1588850561407-ed78c282e89b?w=400",
     "category": "flower-girl",
     "color": "Champagne",
     "sizes": ["2T", "3T", "4T", "5", "6", "7"]
@@ -201,7 +201,7 @@
     "id": 23,
     "name": "Gala Evening Dress",
     "price": 229.99,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539109136881-3be0616acf4b?w=400",
     "category": "formal",
     "color": "Gold",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -210,7 +210,7 @@
     "id": 24,
     "name": "Wrap Cocktail Dress",
     "price": 139.99,
-    "image": "https://images.unsplash.com/photo-1496747611176-8432228e33e6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1496747611176-8432228e33e6?w=400",
     "category": "cocktail",
     "color": "Coral",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -219,7 +219,7 @@
     "id": 25,
     "name": "Festive Indian Lehenga",
     "price": 249.99,
-    "image": "https://images.unsplash.com/photo-1612277795448-24746a3bdecc?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1612277795448-24746a3bdecc?w=400",
     "category": "bridesmaid",
     "color": "Peacock Blue",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -228,7 +228,7 @@
     "id": 26,
     "name": "Vintage Wedding Dress",
     "price": 379.99,
-    "image": "https://images.unsplash.com/photo-1539002081761-f472e6d367af?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539002081761-f472e6d367af?w=400",
     "category": "wedding",
     "color": "White",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -237,7 +237,7 @@
     "id": 27,
     "name": "Two-Piece Mother Dress",
     "price": 209.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Teal",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -246,7 +246,7 @@
     "id": 28,
     "name": "Designer Indian Bridal Lehenga",
     "price": 349.99,
-    "image": "https://images.unsplash.com/photo-1612277795448-24746a3bdecc?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1612277795448-24746a3bdecc?w=400",
     "category": "bridesmaid",
     "color": "Royal Purple & Gold",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -255,7 +255,7 @@
     "id": 29,
     "name": "Modern Wedding Dress",
     "price": 319.99,
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1515372039744-b8f02a3ae446?w=400",
     "category": "wedding",
     "color": "Champagne",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -264,7 +264,7 @@
     "id": 30,
     "name": "Classic Mother Dress",
     "price": 199.99,
-    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1572804013309-59a88b7e92f1?w=400",
     "category": "mother",
     "color": "Burgundy",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -273,7 +273,7 @@
     "id": 31,
     "name": "Organza Flower Girl Dress",
     "price": 119.99,
-    "image": "https://images.unsplash.com/photo-1578618276943-c0078d7778b6?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1578618276943-c0078d7778b6?w=400",
     "category": "flower-girl",
     "color": "Baby Blue",
     "sizes": ["2T", "3T", "4T", "5", "6", "7"]
@@ -282,7 +282,7 @@
     "id": 32,
     "name": "Off-Shoulder Evening Dress",
     "price": 199.99,
-    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400",
+    "image": "https://picsum.photos/seed/azazie/photo-1539109136881-3be0616acf4b?w=400",
     "category": "formal",
     "color": "Emerald Green",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
@@ -291,7 +291,7 @@
     "id": 33,
     "name": "Sequin Cocktail Dress",
     "price": 159.99,
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800",
+    "image": "https://picsum.photos/seed/azazie/photo-1515372039744-b8f02a3ae446?w=800",
     "category": "cocktail",
     "color": "Silver",
     "sizes": ["XS", "S", "M", "L", "XL", "2XL"]
