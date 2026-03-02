@@ -9,25 +9,25 @@ const Home = () => {
   const heroProducts = [
     {
       title: 'BRIDESMAID DRESSES',
-      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=800&h=600&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400',
       link: '/products',
       
     },
     {
       title: 'WEDDING DRESSES',
-      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=800&h=600&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800',
       link: '/products?category=wedding',
       
     },
     {
       title: 'MOTHER OF THE BRIDE',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&h=600&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800',
       link: '/products?category=mother',
      
     },
     {
       title: 'FORMAL DRESSES',
-      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=800&h=600&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800',
       link: '/products?category=formal',
       
     }
@@ -55,27 +55,27 @@ const Home = () => {
   const moreToExplore = [
     {
       title: 'ATELIER FORMAL',
-      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=400&h=400&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800',
       link: '/products?category=formal'
     },
     {
       title: 'ROBES',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=400',
       link: '/all/robes'
     },
     {
       title: 'WEDDING GUEST',
-      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=400&h=400&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1539002081761-f472e6d367af?w=600',
       link: '/products?category=formal'
     },
     {
       title: 'JUNIOR BRIDESMAIDS',
-      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=400&h=400&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800',
       link: '/all/junior-bridesmaid-dresses'
     },
     {
       title: 'FLOWER GIRLS',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400',
       link: '/all/flower-girl-dresses'
     }
   ];
@@ -83,33 +83,33 @@ const Home = () => {
   const categories = [
     {
       title: 'BRIDESMAIDS',
-      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=600&h=450&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800',
       link: '/products'
     },
     {
       title: 'BRIDES',
-      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=600&h=450&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1539002081761-f472e6d367af?w=600',
       link: '/products?category=wedding'
     },
     {
       title: 'MOTHERS',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=450&fit=crop&crop=faces&auto=format',
+      image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600',
       link: '/products?category=mother'
     },
     {
-      title: 'FLOWER GIRLS',
-      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=450&fit=crop&crop=faces&auto=format',
+      title: 'FLOWER GIRL',
+      image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600',
       link: '/products?category=flower-girl'
     },
     {
-      title: 'FORMAL DRESSES',
-      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=600&h=450&fit=crop&crop=faces&auto=format',
+      title: 'FORMAL',
+      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600',
       link: '/products?category=formal'
     },
     {
-      title: 'COCKTAIL DRESSES',
-      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=600&h=450&fit=crop&crop=faces&auto=format',
-      link: '/products?category=cocktail'
+      title: 'SUITS',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600',
+      link: '/products?category=suits'
     }
   ];
 
@@ -150,7 +150,7 @@ const Home = () => {
                 alt={product.title}
                 className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 onError={(e) => {
-                  e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=800&h=600&fit=crop&crop=faces&auto=format';
+                  e.target.src = 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
@@ -245,7 +245,7 @@ const Home = () => {
                     alt={category.title}
                     className="w-full h-32 xs:h-36 sm:h-40 md:h-48 lg:h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=600&h=450&fit=crop&crop=faces&auto=format';
+                      e.target.src = 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600';
                     }}
                   />
                 </div>
@@ -275,7 +275,7 @@ const Home = () => {
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=400&h=400&fit=crop&crop=faces&auto=format';
+                      e.target.src = 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400';
                     }}
                   />
                 </div>
