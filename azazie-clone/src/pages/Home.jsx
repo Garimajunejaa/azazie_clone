@@ -9,25 +9,25 @@ const Home = () => {
   const heroProducts = [
     {
       title: 'BRIDESMAID DRESSES',
-      image: 'https://picsum.photos/seed/bridesmaid/800/600',
+      image: 'https://dummyimage.com/800x600/ff69b4/ffffff&text=BRIDESMAID',
       link: '/products',
       
     },
     {
       title: 'WEDDING DRESSES',
-      image: 'https://picsum.photos/seed/weddingdress/800/600',
+      image: 'https://dummyimage.com/800x600/ffffff/000000&text=WEDDING',
       link: '/products?category=wedding',
       
     },
     {
       title: 'MOTHER OF THE BRIDE',
-      image: 'https://picsum.photos/seed/motherdress/800/600',
+      image: 'https://dummyimage.com/800x600/87ceeb/ffffff&text=MOTHER',
       link: '/products?category=mother',
      
     },
     {
       title: 'FORMAL DRESSES',
-      image: 'https://picsum.photos/seed/formaldress/800/600',
+      image: 'https://dummyimage.com/800x600/da70d6/ffffff&text=FORMAL',
       link: '/products?category=formal',
       
     }
@@ -55,27 +55,27 @@ const Home = () => {
   const moreToExplore = [
     {
       title: 'ATELIER FORMAL',
-      image: 'https://picsum.photos/seed/formalwear/400/400',
+      image: 'https://dummyimage.com/400x400/9370db/ffffff&text=FORMAL',
       link: '/products?category=formal'
     },
     {
       title: 'ROBES',
-      image: 'https://picsum.photos/seed/robes/400/400',
+      image: 'https://dummyimage.com/400x400/ffd700/000000&text=ROBES',
       link: '/all/robes'
     },
     {
       title: 'WEDDING GUEST',
-      image: 'https://picsum.photos/seed/weddingguest/400/400',
+      image: 'https://dummyimage.com/400x400/ff1493/ffffff&text=GUEST',
       link: '/products?category=formal'
     },
     {
       title: 'JUNIOR BRIDESMAIDS',
-      image: 'https://picsum.photos/seed/juniorbridesmaid/400/400',
+      image: 'https://dummyimage.com/400x400/00bfff/ffffff&text=JUNIOR',
       link: '/all/junior-bridesmaid-dresses'
     },
     {
       title: 'FLOWER GIRLS',
-      image: 'https://picsum.photos/seed/flowergirls/400/400',
+      image: 'https://dummyimage.com/400x400/98fb98/000000&text=FLOWER',
       link: '/all/flower-girl-dresses'
     }
   ];
@@ -83,32 +83,32 @@ const Home = () => {
   const categories = [
     {
       title: 'BRIDESMAIDS',
-      image: 'https://picsum.photos/seed/bridesmaids/600/450',
+      image: 'https://dummyimage.com/600x450/ff69b4/ffffff&text=BRIDESMAIDS',
       link: '/products'
     },
     {
       title: 'BRIDES',
-      image: 'https://picsum.photos/seed/weddingbride/600/450',
+      image: 'https://dummyimage.com/600x450/ffffff/000000&text=BRIDES',
       link: '/products?category=wedding'
     },
     {
       title: 'MOTHERS',
-      image: 'https://picsum.photos/seed/motherofbride/600/450',
+      image: 'https://dummyimage.com/600x450/87ceeb/ffffff&text=MOTHERS',
       link: '/products?category=mother'
     },
     {
       title: 'FLOWER GIRLS',
-      image: 'https://picsum.photos/seed/flowergirldress/600/450',
+      image: 'https://dummyimage.com/600x450/98fb98/000000&text=FLOWER+GIRLS',
       link: '/products?category=flower-girl'
     },
     {
       title: 'FORMAL DRESSES',
-      image: 'https://picsum.photos/seed/formalgown/600/450',
+      image: 'https://dummyimage.com/600x450/da70d6/ffffff&text=FORMAL',
       link: '/products?category=formal'
     },
     {
       title: 'COCKTAIL DRESSES',
-      image: 'https://picsum.photos/seed/cocktaildress/600/450',
+      image: 'https://dummyimage.com/600x450/9370db/ffffff&text=COCKTAIL',
       link: '/products?category=cocktail'
     }
   ];
@@ -150,7 +150,7 @@ const Home = () => {
                 alt={product.title}
                 className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 onError={(e) => {
-                  e.target.src = 'https://picsum.photos/seed/dressfallback/800/600';
+                  e.target.src = 'https://dummyimage.com/800x600/cccccc/000000&text=IMAGE+NOT+FOUND';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
@@ -245,7 +245,7 @@ const Home = () => {
                     alt={category.title}
                     className="w-full h-32 xs:h-36 sm:h-40 md:h-48 lg:h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = 'https://picsum.photos/seed/dressfallback/600/450';
+                      e.target.src = 'https://dummyimage.com/600x450/cccccc/000000&text=IMAGE+NOT+FOUND';
                     }}
                   />
                 </div>
@@ -275,7 +275,7 @@ const Home = () => {
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.src = 'https://picsum.photos/seed/dressfallback/400/400';
+                      e.target.src = 'https://dummyimage.com/400x400/cccccc/000000&text=IMAGE+NOT+FOUND';
                     }}
                   />
                 </div>
