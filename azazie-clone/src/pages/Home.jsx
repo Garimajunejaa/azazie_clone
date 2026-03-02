@@ -9,25 +9,25 @@ const Home = () => {
   const heroProducts = [
     {
       title: 'BRIDESMAID DRESSES',
-      image: 'https://dummyimage.com/800x600/ff69b4/ffffff&text=BRIDESMAID',
+      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=800&h=600&fit=crop&crop=faces&auto=format',
       link: '/products',
       
     },
     {
       title: 'WEDDING DRESSES',
-      image: 'https://dummyimage.com/800x600/ffffff/000000&text=WEDDING',
+      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=800&h=600&fit=crop&crop=faces&auto=format',
       link: '/products?category=wedding',
       
     },
     {
       title: 'MOTHER OF THE BRIDE',
-      image: 'https://dummyimage.com/800x600/87ceeb/ffffff&text=MOTHER',
+      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&h=600&fit=crop&crop=faces&auto=format',
       link: '/products?category=mother',
      
     },
     {
       title: 'FORMAL DRESSES',
-      image: 'https://dummyimage.com/800x600/da70d6/ffffff&text=FORMAL',
+      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=800&h=600&fit=crop&crop=faces&auto=format',
       link: '/products?category=formal',
       
     }
@@ -55,27 +55,27 @@ const Home = () => {
   const moreToExplore = [
     {
       title: 'ATELIER FORMAL',
-      image: 'https://dummyimage.com/400x400/9370db/ffffff&text=FORMAL',
+      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=400&h=400&fit=crop&crop=faces&auto=format',
       link: '/products?category=formal'
     },
     {
       title: 'ROBES',
-      image: 'https://dummyimage.com/400x400/ffd700/000000&text=ROBES',
+      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop&crop=faces&auto=format',
       link: '/all/robes'
     },
     {
       title: 'WEDDING GUEST',
-      image: 'https://dummyimage.com/400x400/ff1493/ffffff&text=GUEST',
+      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=400&h=400&fit=crop&crop=faces&auto=format',
       link: '/products?category=formal'
     },
     {
       title: 'JUNIOR BRIDESMAIDS',
-      image: 'https://dummyimage.com/400x400/00bfff/ffffff&text=JUNIOR',
+      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=400&h=400&fit=crop&crop=faces&auto=format',
       link: '/all/junior-bridesmaid-dresses'
     },
     {
       title: 'FLOWER GIRLS',
-      image: 'https://dummyimage.com/400x400/98fb98/000000&text=FLOWER',
+      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=400&fit=crop&crop=faces&auto=format',
       link: '/all/flower-girl-dresses'
     }
   ];
@@ -83,32 +83,32 @@ const Home = () => {
   const categories = [
     {
       title: 'BRIDESMAIDS',
-      image: 'https://dummyimage.com/600x450/ff69b4/ffffff&text=BRIDESMAIDS',
+      image: 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products'
     },
     {
       title: 'BRIDES',
-      image: 'https://dummyimage.com/600x450/ffffff/000000&text=BRIDES',
+      image: 'https://images.unsplash.com/photo-1519378060449-c5f2d13c2c9e?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products?category=wedding'
     },
     {
       title: 'MOTHERS',
-      image: 'https://dummyimage.com/600x450/87ceeb/ffffff&text=MOTHERS',
+      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products?category=mother'
     },
     {
       title: 'FLOWER GIRLS',
-      image: 'https://dummyimage.com/600x450/98fb98/000000&text=FLOWER+GIRLS',
+      image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products?category=flower-girl'
     },
     {
       title: 'FORMAL DRESSES',
-      image: 'https://dummyimage.com/600x450/da70d6/ffffff&text=FORMAL',
+      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products?category=formal'
     },
     {
       title: 'COCKTAIL DRESSES',
-      image: 'https://dummyimage.com/600x450/9370db/ffffff&text=COCKTAIL',
+      image: 'https://images.unsplash.com/photo-1539001681761-cb1f8d8e9c9c?w=600&h=450&fit=crop&crop=faces&auto=format',
       link: '/products?category=cocktail'
     }
   ];
@@ -150,7 +150,7 @@ const Home = () => {
                 alt={product.title}
                 className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 onError={(e) => {
-                  e.target.src = 'https://dummyimage.com/800x600/cccccc/000000&text=IMAGE+NOT+FOUND';
+                  e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=800&h=600&fit=crop&crop=faces&auto=format';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
@@ -245,7 +245,7 @@ const Home = () => {
                     alt={category.title}
                     className="w-full h-32 xs:h-36 sm:h-40 md:h-48 lg:h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = 'https://dummyimage.com/600x450/cccccc/000000&text=IMAGE+NOT+FOUND';
+                      e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=600&h=450&fit=crop&crop=faces&auto=format';
                     }}
                   />
                 </div>
@@ -275,7 +275,7 @@ const Home = () => {
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.src = 'https://dummyimage.com/400x400/cccccc/000000&text=IMAGE+NOT+FOUND';
+                      e.target.src = 'https://images.unsplash.com/photo-1594634319159-22f1b5d6e7c3?w=400&h=400&fit=crop&crop=faces&auto=format';
                     }}
                   />
                 </div>
