@@ -60,9 +60,8 @@ const ProductDetail = () => {
    * Shows success popup feedback to user
    */
   const handleAddToCart = () => {
-    for (let i = 0; i < quantity; i++) {
-      addToCart(product, selectedSize);
-    }
+    // Add the product with the selected quantity and size
+    addToCart(product, selectedSize, quantity);
     
     // Show added to cart popup
     setShowAddedPopup(true);

@@ -334,25 +334,61 @@ const Navbar = () => {
                   </div>
                 </div>
                 
-                <hr className="border-gray-200" />
-                
-                {/* All Categories */}
-                <div>
-                  <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Shop</h3>
+                {/* Account Section - Mobile */}
+                <div className="border-t border-gray-200 mt-4 pt-4">
+                  <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Account</h3>
                   <div className="space-y-1">
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>NEW</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>HOME TRY ON</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>BRIDESMAIDS</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>BRIDES</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>MOMS</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>FLOWER GIRL</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>FORMAL & EVENING</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>PROM</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>SUITS & TIES</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>PAJAMAS & ROBES</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded" onClick={() => setIsMobileMenuOpen(false)}>SHOES & ACC</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-pink-600 font-bold rounded" onClick={() => setIsMobileMenuOpen(false)}>(FREE!) SWATCHES</Link>
-                    <Link to="/products" className="block px-3 py-2 text-sm text-red-600 font-medium rounded" onClick={() => setIsMobileMenuOpen(false)}>CLEARANCE</Link>
+                    {currentUser ? (
+                      <>
+                        <Link 
+                          to="/account" 
+                          className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          My Account
+                        </Link>
+                        <Link 
+                          to="/orders" 
+                          className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          My Orders
+                        </Link>
+                        <Link 
+                          to="/favorites" 
+                          className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          My Favorites
+                        </Link>
+                        <button 
+                          onClick={() => {
+                            handleLogout();
+                            setIsMobileMenuOpen(false);
+                          }}
+                          className="block w-full text-left px-3 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Sign Out
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <Link 
+                          to="/login" 
+                          className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-pink-600 rounded"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          Sign In
+                        </Link>
+                        <Link 
+                          to="/signup" 
+                          className="block px-3 py-2 text-sm text-pink-600 font-medium hover:bg-pink-50 hover:text-pink-700 rounded"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          Sign Up
+                        </Link>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>

@@ -62,10 +62,7 @@ const ProductCard = ({ product }) => {
             </button>
             <button 
               className="bg-pink-600 hover:bg-pink-700 text-white px-2 py-1 sm:px-3 sm:py-1 rounded text-xs sm:text-sm font-medium transition-colors"
-              onClick={() => {
-                // Add to cart functionality
-                console.log('Add to cart:', product);
-              }}
+              onClick={handleAddToCart}
             >
               Add
             </button>
